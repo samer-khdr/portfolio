@@ -1,0 +1,40 @@
+{
+  "skillCategories": [
+    {
+      "category": "AI/ML Stack",
+      "skills": [
+        "LangChain",
+        "LangGraph",
+        "Model Context Protocol (MCP)",
+        "Prompt Engineering"
+      ]
+    },
+    {
+      "category": "Backend & Infrastructure",
+      "skills": [
+        "Golang",
+        "Kubernetes",
+        "Helm Charts",
+        "Microservices",
+        "REST APIs",
+        "API Gateways",
+        "Prometheus",
+        "Grafana"
+      ]
+    },
+    {
+      "category": "Additional Skills",
+      "skills": [
+        "Python",
+        "Software Design",
+        "Software Infrastructure",
+        "Backend",
+        "Web Application Security",
+        "Agile Methodologies",
+        "Github Actions",
+        "Flutter",
+        "Android Development"
+      ]
+    }
+  ]
+}

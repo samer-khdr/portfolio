@@ -1,0 +1,77 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Internal MCP Tools for CI/CD & Release Management",
+      "description": "Implemented Model Context Protocol (MCP) tools that enhanced employee productivity by providing seamless integration with CI pipelines and release management systems. Created comprehensive toolsets enabling teams to interact with complex release workflows, monitor deployments, and trigger multi-step operations through Claude Desktop and GitHub Copilot, significantly reducing manual overhead.",
+      "tags": [
+        "MCP",
+        "CI/CD Integration",
+        "Golang",
+        "Release Management",
+        "Developer Tools"
+      ],
+      "year": "2025",
+      "image": "/images/project-1.jpg",
+      "company": "Qlik"
+    },
+    {
+      "id": 2,
+      "title": "Multi-Agent Framework for Rapid Agent Development",
+      "description": "Designed and implemented a flexible multi-agent framework enabling teams to create, deploy, and manage complex AI agents reliably and at scale. The framework provides abstractions for agent composition, task orchestration, and error handling, allowing engineers to build sophisticated agentic workflows quickly without deep AI expertise.",
+      "tags": [
+        "LangChain",
+        "LangGraph",
+        "Agent Architecture",
+        "Golang",
+        "Framework Design"
+      ],
+      "year": "2025",
+      "image": "/images/project-2.jpg",
+      "company": "Qlik"
+    },
+    {
+      "id": 3,
+      "title": "Microservices Architecture & Backend Infrastructure",
+      "description": "Designed, developed, and maintained multiple microservices with strong focus on reliability, scalability, and observability. Implemented comprehensive monitoring with Prometheus and Grafana, built resilient communication patterns, and optimized for high-availability deployments.",
+      "tags": [
+        "Golang",
+        "Kubernetes",
+        "Helm Charts",
+        "Microservices",
+        "Infrastructure"
+      ],
+      "year": "2023-2025",
+      "image": "/images/project-3.jpg",
+      "company": "Qlik"
+    },
+    {
+      "id": 4,
+      "title": "Master's Thesis: Backend-For-Frontend in Microservices",
+      "description": "Research and evaluation of Backend-for-Frontend (BFF) patterns in microservices environments. Explored API Gateway strategies, architectural design patterns, and trade-offs between different approaches for orchestrating microservice communication.",
+      "tags": [
+        "API Gateways",
+        "REST APIs",
+        "Microservices Architecture",
+        "Research"
+      ],
+      "year": "2022",
+      "image": "/images/project-4.jpg",
+      "company": "Lund University"
+    },
+    {
+      "id": 5,
+      "title": "Qlik Sense Mobile Application Enhancement",
+      "description": "Collaborated with cross-functional teams to improve Qlik Sense SaaS mobile application. Enhanced user experience and backend operations through microservice development, optimized data synchronization, and improved mobile-specific performance.",
+      "tags": [
+        "Flutter",
+        "Backend Development",
+        "Mobile Development",
+        "User Experience"
+      ],
+      "year": "2022",
+      "image": "/images/project-5.jpg",
+      "company": "Qlik"
+    }
+  ]
+}

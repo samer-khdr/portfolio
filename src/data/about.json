@@ -1,0 +1,21 @@
+{
+  "name": "Samer Alkhodary",
+  "title": "AI-First Engineer | Automations & Productivity",
+  "location": "Lund, Sweden",
+  "email": "sameralkhodary93@gmail.com",
+  "linkedIn": "https://se.linkedin.com/in/samer-alkhodary",
+  "github": "https://github.com",
+  "tagline": "Building AI-powered automations and productivity tools with security & safety by design. Specializing in intelligent agents, plugins, and MCPs.",
+  "bio": "Software engineer with 5+ years at Qlik, pioneering AI-first solutions that amplify human productivity. I architect AI agents, automations, and extensible systems (plugins, MCPs) that solve real problems—always with security and safety as first-class concerns.",
+  "bio2": "My expertise spans backend infrastructure, scalable systems, and cutting-edge AI/ML. I believe the future is AI-augmented workflows: intelligent tools that enhance human capability while maintaining trust, security, and control.",
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Full Professional"
+    },
+    {
+      "language": "Arabic",
+      "proficiency": "Full Professional"
+    }
+  ]
+}

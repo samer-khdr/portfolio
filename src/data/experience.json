@@ -1,0 +1,77 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "company": "Qlik",
+      "position": "Software Engineer AI/ML",
+      "startDate": "Jun 2025",
+      "endDate": "Present",
+      "duration": "1 yr",
+      "location": "Lund, Skåne County, Sweden",
+      "type": "Full-time",
+      "mode": "Hybrid",
+      "description": "Designing and implementing AI agents that enhance user experience by enabling customers to interact with products through natural free-text.",
+      "keySkills": [
+        "Software Design",
+        "Software Infrastructure",
+        "LangChain",
+        "LangGraph",
+        "MCP"
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Qlik",
+      "position": "Software Engineer",
+      "startDate": "Jan 2023",
+      "endDate": "Jun 2025",
+      "duration": "2 yrs 6 mos",
+      "location": "Lund, Skåne County, Sweden",
+      "type": "Full-time",
+      "mode": "Hybrid",
+      "description": "Backend Software Engineer with experience designing, developing, and maintaining multiple microservices, with a strong focus on infrastructure reliability, scalability, and observability.",
+      "keySkills": [
+        "Golang",
+        "Kubernetes",
+        "Helm Charts",
+        "Prometheus",
+        "Grafana"
+      ]
+    },
+    {
+      "id": 3,
+      "company": "Qlik",
+      "position": "Junior Full Stack Engineer",
+      "startDate": "Jun 2022",
+      "endDate": "Dec 2022",
+      "duration": "7 mos",
+      "location": "Lund",
+      "type": "Full-time",
+      "mode": "Hybrid",
+      "description": "Developed and maintained a microservice for backend operations, enhancing system performance and reliability. Collaborated with a cross-functional team to improve the Qlik Sense SaaS mobile application, focusing on user experience.",
+      "keySkills": [
+        "Helm Charts",
+        "Kubernetes",
+        "Flutter",
+        "Microservices"
+      ]
+    },
+    {
+      "id": 4,
+      "company": "Qlik",
+      "position": "Software Engineer Intern",
+      "startDate": "Apr 2021",
+      "endDate": "Jan 2022",
+      "duration": "10 mos",
+      "location": "Lund",
+      "type": "Part-time",
+      "mode": "Hybrid",
+      "description": "Internship experience at Qlik, working on backend development and infrastructure projects.",
+      "keySkills": [
+        "Backend",
+        "Microservices",
+        "REST APIs"
+      ]
+    }
+  ]
+}
