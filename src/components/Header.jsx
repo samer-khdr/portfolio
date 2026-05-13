@@ -1,16 +1,27 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import aboutData from '../data/about.json';
 
 export default function Header({ scrolled }) {
   const { name } = aboutData;
-  const navItems = ['About', 'Experience', 'Work', 'Contact'];
+  const navItems = ['About', 'Experience', 'Work', 'Blog', 'Contact'];
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const APP_BAR_HEIGHT = 76;
 
   const toggleMobileMenu = () => setMobileMenuOpen((prev) => !prev);
   const closeMobileMenu = () => setMobileMenuOpen(false);
+
+  const scrollToSection = (sectionId) => {
+    closeMobileMenu();
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   useEffect(() => {
     document.body.style.overflow = mobileMenuOpen ? 'hidden' : '';
@@ -42,25 +53,27 @@ export default function Header({ scrolled }) {
         transition={{ duration: 0.35 }}
       >
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-6 sm:gap-12">
-          <motion.a
-            href="#"
+          <motion.button
+            onClick={() => {
+              navigate('/');
+              closeMobileMenu();
+            }}
             className="text-lg font-serif font-bold tracking-tight text-white focus:outline-none focus:ring-2 focus:ring-amber-400 rounded px-2 py-1"
             whileHover={{ opacity: 0.85 }}
-            onClick={closeMobileMenu}
           >
             {name}
-          </motion.a>
+          </motion.button>
 
           <div className="hidden sm:flex gap-8 items-center">
             {navItems.map((item) => (
-              <motion.a
+              <motion.button
                 key={item}
-                href={`#${item.toLowerCase()}`}
+                onClick={() => scrollToSection(item.toLowerCase())}
                 className="text-sm font-medium text-slate-300 hover:text-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 rounded px-2 py-1 transition-colors"
                 whileHover={{ y: -2 }}
               >
                 {item}
-              </motion.a>
+              </motion.button>
             ))}
           </div>
 
@@ -123,11 +136,10 @@ export default function Header({ scrolled }) {
 
                 <div className="flex flex-col gap-5">
                   {navItems.map((item, idx) => (
-                    <motion.a
+                    <motion.button
                       key={item}
-                      href={`#${item.toLowerCase()}`}
-                      onClick={closeMobileMenu}
-                      className="text-4xl font-serif font-bold leading-tight text-white transition-colors hover:text-amber-400 active:text-amber-300"
+                      onClick={() => scrollToSection(item.toLowerCase())}
+                      className="text-4xl font-serif font-bold leading-tight text-white transition-colors hover:text-amber-400 active:text-amber-300 text-left"
                       initial={{ opacity: 0, y: 24 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: 10 }}
@@ -138,7 +150,7 @@ export default function Header({ scrolled }) {
                       }}
                     >
                       {item}
-                    </motion.a>
+                    </motion.button>
                   ))}
                 </div>
               </nav>
