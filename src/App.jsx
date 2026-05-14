@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -43,6 +43,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/article/:id" element={<ArticleDetail />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </HashRouter>
   );

@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import aboutData from '../data/about.json';
 import skillsData from '../data/skills.json';
+import SectionTitle from './SectionTitle';
 
 export default function About() {
   const { bio, bio2, languages } = aboutData;
@@ -10,29 +11,16 @@ export default function About() {
       id="about"
       className="py-32 px-6 bg-slate-950"
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true, margin: '-100px' }}
         >
-          <motion.div
-            className="mb-12"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold tracking-tight mb-4">
-              About
-            </h2>
-            <motion.div
-              className="h-1 w-20 bg-gradient-to-r from-amber-500 to-transparent"
-              animate={{ width: [0, 80, 80] }}
-              transition={{ duration: 1.2, ease: 'easeOut' }}
-            />
-          </motion.div>
+          <div className="mb-12">
+            <SectionTitle title="About" />
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="space-y-6">

@@ -20,6 +20,7 @@ export default function Header({ scrolled }) {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
+      window.history.replaceState(null, '', '#/' + sectionId);
     }
   };
 

@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import aboutData from '../data/about.json';
+import { scrollToSection } from '../utils/scroll';
 
 export default function Hero() {
   const { title, tagline } = aboutData;
@@ -103,8 +104,8 @@ export default function Hero() {
           variants={buttonVariants}
           className="flex gap-4 flex-wrap"
         >
-          <motion.a
-            href="#work"
+          <motion.button
+            onClick={() => scrollToSection('work')}
             className="px-8 py-3 bg-amber-500 text-slate-950 font-medium rounded-lg hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2 focus:ring-offset-slate-950 transition-all"
             whileHover={{
               scale: 1.08,
@@ -114,9 +115,9 @@ export default function Hero() {
             aria-label="View my work and projects"
           >
             View Work
-          </motion.a>
-          <motion.a
-            href="#contact"
+          </motion.button>
+          <motion.button
+            onClick={() => scrollToSection('contact')}
             className="px-8 py-3 border border-slate-500 text-slate-50 font-medium rounded-lg hover:border-amber-400 hover:text-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 transition-all"
             whileHover={{
               scale: 1.08,
@@ -127,7 +128,7 @@ export default function Hero() {
             aria-label="Get in touch with me"
           >
             Get in Touch
-          </motion.a>
+          </motion.button>
         </motion.div>
       </motion.div>
 
