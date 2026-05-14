@@ -42,6 +42,8 @@ export default function Blog() {
     'Systems Design': 'from-emerald-500 to-teal-500',
     'AI Fundamentals': 'from-indigo-500 to-blue-500',
     'Debugging': 'from-red-500 to-orange-500',
+    'Tooling': 'from-fuchsia-500 to-rose-500',
+    'Model Releases': 'from-sky-500 to-violet-500',
   };
 
   const getCategoryGradient = (category) => {
