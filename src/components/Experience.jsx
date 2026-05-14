@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import experienceData from '../data/experience.json';
+import SectionTitle from './SectionTitle';
 
 export default function Experience() {
   const { experience } = experienceData;
@@ -41,17 +42,7 @@ export default function Experience() {
           viewport={{ once: true, margin: '-100px' }}
           className="mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-serif font-bold tracking-tight mb-4">
-            Experience
-          </h2>
-          <motion.div
-            className="h-1 w-20 bg-gradient-to-r from-amber-500 to-transparent"
-            animate={{ width: [0, 80, 80] }}
-            transition={{ duration: 1.2, ease: 'easeOut' }}
-          />
-          <p className="text-slate-400 text-sm mt-4">
-            My professional journey and roles.
-          </p>
+          <SectionTitle title="Experience" subtitle="My professional journey and roles." />
         </motion.div>
 
         <motion.div

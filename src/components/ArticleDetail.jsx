@@ -43,7 +43,7 @@ function splitContent(content) {
 // Turn inline [N] citations into clickable anchors that jump to #ref-N.
 // Skip occurrences that are part of a markdown link "[text](url)".
 function linkifyCitations(text) {
-  return text.replace(/\[(\d+)\](?!\()/g, (_m, n) => `[\\[${n}\\]](#ref-${n})`);
+  return text.replace(/\[(\d+)\](?!\()/g, (_m, n) => `[${n}](#ref-${n})`);
 }
 
 // Markdown component overrides — styled to match the portfolio aesthetic.
@@ -75,10 +75,15 @@ const mdComponents = {
   a: ({ href, children }) => {
     const isCitation = typeof href === 'string' && href.startsWith('#ref-');
     if (isCitation) {
+      const refId = href.slice(1); // "ref-1"
       return (
         <a
           href={href}
-          className="inline-flex items-baseline align-super text-[0.7rem] font-semibold text-amber-400 hover:text-amber-300 no-underline px-[3px] -ml-[1px] rounded-sm hover:bg-amber-400/10 transition-colors"
+          onClick={(e) => {
+            e.preventDefault();
+            document.getElementById(refId)?.scrollIntoView({ behavior: 'smooth' });
+          }}
+          className="inline-flex items-baseline align-super text-[0.7rem] font-semibold text-amber-400 hover:text-amber-300 no-underline px-[3px] -ml-[1px] rounded-sm hover:bg-amber-400/10 transition-colors cursor-pointer"
         >
           {children}
         </a>
@@ -96,12 +101,12 @@ const mdComponents = {
     );
   },
   ul: ({ children }) => (
-    <ul className="my-6 space-y-2.5 pl-1 [&>li]:relative [&>li]:pl-6 text-slate-300 text-[1.0625rem] leading-[1.85]">
+    <ul className="my-6 space-y-2.5 pl-1 [&>li]:relative [&>li]:pl-6 text-slate-300 text-[0.975rem] sm:text-[1.0625rem] leading-[1.8] sm:leading-[1.85]">
       {children}
     </ul>
   ),
   ol: ({ children }) => (
-    <ol className="my-6 space-y-2.5 pl-1 list-decimal list-inside marker:text-amber-400 marker:font-semibold text-slate-300 text-[1.0625rem] leading-[1.85]">
+    <ol className="my-6 space-y-2.5 pl-1 list-decimal list-inside marker:text-amber-400 marker:font-semibold text-slate-300 text-[0.975rem] sm:text-[1.0625rem] leading-[1.8] sm:leading-[1.85]">
       {children}
     </ol>
   ),
@@ -395,16 +400,9 @@ export default function ArticleDetail() {
                 <p className="text-sm text-slate-400">AI/ML Engineer • System Designer</p>
               </div>
             </div>
-            <p className="text-slate-300 leading-relaxed mb-6">
+            <p className="text-slate-300 leading-relaxed">
               Full-stack engineer passionate about building intelligent systems at scale. Specializing in AI agents, microservices architecture, and production systems.
             </p>
-            <motion.button
-              className="px-6 py-3 bg-amber-500 text-slate-950 font-medium rounded-lg hover:bg-amber-400 transition-all"
-              whileHover={{ scale: 1.08 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Follow Author
-            </motion.button>
           </div>
         </motion.div>
 
@@ -415,7 +413,7 @@ export default function ArticleDetail() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          <h2 className="text-3xl font-serif font-bold mb-8">More Articles</h2>
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-serif font-bold mb-8">More Articles</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {blogsData
               .filter(b => b.id !== article.id)
