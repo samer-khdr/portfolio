@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, lazy, Suspense } from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -8,8 +8,9 @@ import Projects from './components/Projects';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import ArticleDetail from './components/ArticleDetail';
 import GradientMesh from './components/GradientMesh';
+
+const ArticleDetail = lazy(() => import('./components/ArticleDetail'));
 
 function HomePage() {
   const [scrolled, setScrolled] = useState(false);
@@ -40,11 +41,13 @@ function HomePage() {
 export default function App() {
   return (
     <HashRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/article/:id" element={<ArticleDetail />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
+      <Suspense fallback={<div className="bg-slate-950 min-h-screen" />}>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/article/:id" element={<ArticleDetail />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </Suspense>
     </HashRouter>
   );
 }

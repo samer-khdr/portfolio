@@ -133,7 +133,7 @@ export default function Blog() {
               </h3>
 
               {/* Excerpt */}
-              <p className="text-slate-400 text-sm leading-relaxed mb-4 line-clamp-3 flex-grow">
+              <p className="text-slate-400 text-sm leading-relaxed mb-4 overflow-hidden [display:-webkit-box] [-webkit-line-clamp:3] [-webkit-box-orient:vertical]">
                 {blog.excerpt}
               </p>
 
