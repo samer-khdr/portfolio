@@ -365,6 +365,24 @@ export default function ArticleDetail() {
           <p className="text-lg sm:text-xl md:text-2xl text-slate-300 font-light leading-relaxed max-w-3xl">
             {article.excerpt}
           </p>
+
+          {article.tldr && article.tldr.length > 0 && (
+            <aside
+              aria-label="TL;DR"
+              className="mt-10 max-w-3xl border-l-2 border-amber-400/70 pl-5 sm:pl-6"
+            >
+              <div className="text-[0.65rem] font-mono uppercase tracking-[0.25em] text-amber-400/90 mb-3">
+                TL;DR
+              </div>
+              <ul className="space-y-2 text-slate-300 text-[0.95rem] sm:text-base leading-[1.7]">
+                {article.tldr.map((point, i) => (
+                  <li key={i} className="relative pl-4 before:content-[''] before:absolute before:left-0 before:top-[0.7em] before:w-2 before:h-px before:bg-amber-400/60">
+                    {point}
+                  </li>
+                ))}
+              </ul>
+            </aside>
+          )}
         </motion.div>
 
         {/* Article Tags */}
@@ -388,16 +406,13 @@ export default function ArticleDetail() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <div className="bg-gradient-to-br from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/40 rounded-2xl p-7 md:p-12">
-            <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>
-              {bodyMd}
-            </ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>
+            {bodyMd}
+          </ReactMarkdown>
 
-            {/* References — rendered from structured sources when available */}
-            {article.sources && article.sources.length > 0 && (
-              <References sources={article.sources} />
-            )}
-          </div>
+          {article.sources && article.sources.length > 0 && (
+            <References sources={article.sources} />
+          )}
 
           {hasInlineRefs && article.sources && (
             <p className="text-center text-xs text-slate-500 mt-4 font-mono tracking-wider">
@@ -408,24 +423,22 @@ export default function ArticleDetail() {
 
         {/* Article Footer */}
         <motion.div
-          className="border-t border-slate-800 pt-12"
+          className="border-t border-slate-800 pt-10"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <div className="bg-gradient-to-r from-slate-800/30 to-slate-900/30 backdrop-blur-sm border border-slate-700/40 rounded-2xl p-8 md:p-10">
-            <div className="flex items-center gap-6 mb-6">
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-amber-500 to-orange-500 flex items-center justify-center">
-                <span className="text-2xl font-bold text-slate-950">SA</span>
-              </div>
-              <div>
-                <h3 className="text-lg font-serif font-bold text-white">{article.author}</h3>
-                <p className="text-sm text-slate-400">AI/ML Engineer • System Designer</p>
-              </div>
+          <div className="flex items-start gap-5">
+            <div className="w-14 h-14 flex-shrink-0 rounded-full bg-gradient-to-br from-amber-500 to-orange-500 flex items-center justify-center">
+              <span className="text-xl font-bold text-slate-950">SA</span>
             </div>
-            <p className="text-slate-300 leading-relaxed">
-              Full-stack engineer passionate about building intelligent systems at scale. Specializing in AI agents, microservices architecture, and production systems.
-            </p>
+            <div className="min-w-0">
+              <h3 className="text-base font-serif font-bold text-white">{article.author}</h3>
+              <p className="text-xs text-slate-400 mb-2">AI/ML Engineer · System Designer</p>
+              <p className="text-sm text-slate-300 leading-relaxed">
+                Full-stack engineer passionate about building intelligent systems at scale. Specializing in AI agents, microservices architecture, and production systems.
+              </p>
+            </div>
           </div>
         </motion.div>
 
