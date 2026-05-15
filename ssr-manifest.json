@@ -4,7 +4,7 @@
   "\u0000/home/samer-alkhodary/programming/portfolio/node_modules/react-dom/cjs/react-dom.production.min.js?commonjs-exports": [
   ],
   "\u0000/home/samer-alkhodary/programming/portfolio/node_modules/react-dom/client.js?commonjs-exports": [
-    "/portfolio/assets/client-62748690.js"
+    "/portfolio/assets/client-b29f8c16.js"
   ],
   "\u0000/home/samer-alkhodary/programming/portfolio/node_modules/react-dom/index.js?commonjs-module": [
   ],
@@ -21,10 +21,10 @@
   "\u0000/home/samer-alkhodary/programming/portfolio/node_modules/scheduler/index.js?commonjs-module": [
   ],
   "\u0000/home/samer-alkhodary/programming/portfolio/node_modules/style-to-js/cjs/utilities.js?commonjs-exports": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "\u0000/home/samer-alkhodary/programming/portfolio/node_modules/style-to-object/cjs/index.js?commonjs-exports": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "\u0000commonjsHelpers.js": [
   ],
@@ -37,37 +37,37 @@
   "node_modules/@remix-run/router/dist/router.js": [
   ],
   "node_modules/@ungap/structured-clone/esm/deserialize.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/@ungap/structured-clone/esm/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/@ungap/structured-clone/esm/serialize.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/@ungap/structured-clone/esm/types.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/bail/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/ccount/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/comma-separated-tokens/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/decode-named-character-reference/index.dom.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/devlop/lib/default.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/estree-util-is-identifier-name/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/extend/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/framer-motion/dist/es/animation/animators/instant.mjs": [
   ],
@@ -492,420 +492,420 @@
   "node_modules/framer-motion/dist/es/value/utils/resolve-motion-value.mjs": [
   ],
   "node_modules/hast-util-to-jsx-runtime/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/hast-util-whitespace/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/html-url-attributes/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/inline-style-parser/cjs/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/invariant/browser.js": [
   ],
   "node_modules/is-plain-obj/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/longest-streak/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/markdown-table/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-find-and-replace/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-find-and-replace/node_modules/escape-string-regexp/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-from-markdown/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-gfm-autolink-literal/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-gfm-footnote/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-gfm-strikethrough/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-gfm-table/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-gfm-task-list-item/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-gfm/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-phrasing/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/footer.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/blockquote.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/break.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/code.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/delete.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/emphasis.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/footnote-reference.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/heading.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/html.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/image-reference.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/image.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/inline-code.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/link-reference.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/link.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/list-item.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/list.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/paragraph.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/root.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/strong.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/table-cell.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/table-row.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/table.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/text.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/handlers/thematic-break.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/revert.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-hast/lib/state.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/blockquote.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/break.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/code.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/definition.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/emphasis.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/heading.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/html.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/image-reference.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/image.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/inline-code.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/link-reference.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/link.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/list-item.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/list.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/paragraph.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/root.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/strong.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/text.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/handle/thematic-break.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/check-bullet-ordered.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/check-bullet-other.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/check-bullet.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/check-emphasis.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/check-fence.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/check-list-item-indent.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/check-quote.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/check-rule-repetition.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/check-rule.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/check-strong.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/encode-character-reference.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/encode-info.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/format-code-as-indented.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/format-heading-as-setext.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/format-link-as-autolink.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-markdown/lib/util/pattern-in-scope.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/mdast-util-to-string/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/attention.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/autolink.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/blank-line.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/block-quote.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/character-escape.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/character-reference.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/code-fenced.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/code-indented.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/code-text.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/content.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/definition.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/hard-break-escape.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/heading-atx.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/html-flow.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/html-text.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/label-end.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/label-start-image.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/label-start-link.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/line-ending.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/list.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/setext-underline.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-core-commonmark/lib/thematic-break.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-extension-gfm-autolink-literal/lib/syntax.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-extension-gfm-footnote/lib/syntax.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-extension-gfm-strikethrough/lib/syntax.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-extension-gfm-table/lib/edit-map.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-extension-gfm-table/lib/infer.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-extension-gfm-table/lib/syntax.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-extension-gfm-task-list-item/lib/syntax.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-extension-gfm/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-factory-destination/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-factory-label/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-factory-space/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-factory-title/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-factory-whitespace/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-util-character/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-util-chunked/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-util-classify-character/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-util-combine-extensions/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-util-decode-numeric-character-reference/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-util-decode-string/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-util-html-tag-name/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-util-normalize-identifier/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-util-resolve-all/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-util-sanitize-uri/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-util-subtokenize/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark-util-subtokenize/lib/splice-buffer.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark/lib/constructs.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark/lib/create-tokenizer.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark/lib/initialize/content.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark/lib/initialize/document.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark/lib/initialize/flow.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark/lib/initialize/text.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark/lib/parse.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark/lib/postprocess.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/micromark/lib/preprocess.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/prop-types/factoryWithThrowingShims.js": [
   ],
@@ -914,70 +914,70 @@
   "node_modules/prop-types/lib/ReactPropTypesSecret.js": [
   ],
   "node_modules/property-information/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/aria.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/find.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/hast-to-react.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/html.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/normalize.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/svg.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/util/case-insensitive-transform.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/util/case-sensitive-transform.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/util/create.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/util/defined-info.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/util/info.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/util/merge.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/util/schema.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/util/types.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/xlink.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/xml.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/property-information/lib/xmlns.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/react-dom/cjs/react-dom.production.min.js": [
   ],
   "node_modules/react-dom/client.js": [
-    "/portfolio/assets/client-62748690.js"
+    "/portfolio/assets/client-b29f8c16.js"
   ],
   "node_modules/react-dom/index.js": [
   ],
   "node_modules/react-fast-compare/index.js": [
   ],
   "node_modules/react-markdown/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/react-router-dom/dist/index.js": [
   ],
@@ -992,13 +992,13 @@
   "node_modules/react/jsx-runtime.js": [
   ],
   "node_modules/remark-gfm/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/remark-parse/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/remark-rehype/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/scheduler/cjs/scheduler.production.min.js": [
   ],
@@ -1007,64 +1007,64 @@
   "node_modules/shallowequal/index.js": [
   ],
   "node_modules/space-separated-tokens/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/style-to-js/cjs/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/style-to-js/cjs/utilities.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/style-to-object/cjs/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/trim-lines/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/trough/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/unified/lib/callable-instance.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/unified/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/unist-util-is/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/unist-util-position/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/unist-util-stringify-position/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/unist-util-visit-parents/lib/color.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/unist-util-visit-parents/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/unist-util-visit/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/vfile-message/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/vfile/lib/index.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/vfile/lib/minpath.browser.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/vfile/lib/minproc.browser.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/vfile/lib/minurl.browser.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/vfile/lib/minurl.shared.js": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "node_modules/vite-react-ssg/dist/index.mjs": [
   ],
@@ -1081,7 +1081,7 @@
   "src/components/About.jsx": [
   ],
   "src/components/ArticleDetail.jsx": [
-    "/portfolio/assets/ArticleDetail-95f53676.js"
+    "/portfolio/assets/ArticleDetail-3c88a9ed.js"
   ],
   "src/components/Blog.jsx": [
   ],

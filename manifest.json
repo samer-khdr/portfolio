@@ -1,30 +1,30 @@
 {
-  "_client-62748690.js": {
-    "file": "assets/client-62748690.js",
+  "_client-b29f8c16.js": {
+    "file": "assets/client-b29f8c16.js",
     "imports": [
       "index.html"
     ],
     "isDynamicEntry": true
   },
   "index.css": {
-    "file": "assets/index-12b3340b.css",
+    "file": "assets/index-b31540b4.css",
     "src": "index.css"
   },
   "index.html": {
     "css": [
-      "assets/index-12b3340b.css"
+      "assets/index-b31540b4.css"
     ],
     "dynamicImports": [
-      "_client-62748690.js",
-      "_client-62748690.js",
+      "_client-b29f8c16.js",
+      "_client-b29f8c16.js",
       "src/components/ArticleDetail.jsx"
     ],
-    "file": "assets/app-22d03f08.js",
+    "file": "assets/app-a1bfc893.js",
     "isEntry": true,
     "src": "index.html"
   },
   "src/components/ArticleDetail.jsx": {
-    "file": "assets/ArticleDetail-95f53676.js",
+    "file": "assets/ArticleDetail-3c88a9ed.js",
     "imports": [
       "index.html"
     ],
