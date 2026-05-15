@@ -1,6 +1,6 @@
 {
-  "_client-41e77b48.js": {
-    "file": "assets/client-41e77b48.js",
+  "_client-62748690.js": {
+    "file": "assets/client-62748690.js",
     "imports": [
       "index.html"
     ],
@@ -15,16 +15,16 @@
       "assets/index-12b3340b.css"
     ],
     "dynamicImports": [
-      "_client-41e77b48.js",
-      "_client-41e77b48.js",
+      "_client-62748690.js",
+      "_client-62748690.js",
       "src/components/ArticleDetail.jsx"
     ],
-    "file": "assets/app-dc9f32c4.js",
+    "file": "assets/app-22d03f08.js",
     "isEntry": true,
     "src": "index.html"
   },
   "src/components/ArticleDetail.jsx": {
-    "file": "assets/ArticleDetail-441238a6.js",
+    "file": "assets/ArticleDetail-95f53676.js",
     "imports": [
       "index.html"
     ],
