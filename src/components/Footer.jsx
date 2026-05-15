@@ -6,7 +6,7 @@ export default function Footer() {
   const { name, location, email, linkedIn, github } = aboutData;
 
   return (
-    <footer className="py-12 px-6 border-t border-slate-800/30">
+    <footer className="py-12 px-6 border-t border-slate-800/30 bg-slate-950">
       <div className="max-w-6xl mx-auto">
         <motion.div
           className="flex flex-col md:flex-row items-center justify-between gap-6"

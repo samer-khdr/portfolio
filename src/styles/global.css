@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -12,6 +12,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #020617;
 }
 
 body {
@@ -21,6 +22,8 @@ body {
   background: linear-gradient(135deg, #0f172a 0%, #1a1f35 25%, #0f172a 50%, #1a2744 75%, #0f172a 100%);
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
+  min-height: 100vh;
+  overscroll-behavior-y: none;
 }
 
 @keyframes gradientShift {

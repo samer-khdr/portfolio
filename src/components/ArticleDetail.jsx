@@ -3,7 +3,10 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useEffect, useMemo } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { Head } from 'vite-react-ssg';
 import blogsData from '../data/blogs.json';
+
+const SITE_URL = 'https://samer-khdr.github.io/portfolio';
 
 const categoryColors = {
   'AI Agents': 'from-amber-500 to-orange-500',
@@ -282,8 +285,28 @@ export default function ArticleDetail() {
     );
   }
 
+  const pageTitle = `${article.title} — Samer Alkhodary`;
+  const pageUrl = `${SITE_URL}/article/${article.id}`;
+
   return (
     <div className="bg-slate-950 text-slate-50 min-h-screen relative overflow-hidden pt-24 pb-20">
+      <Head>
+        <title>{pageTitle}</title>
+        <meta name="description" content={article.excerpt} />
+        <link rel="canonical" href={pageUrl} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={pageUrl} />
+        <meta property="og:title" content={article.title} />
+        <meta property="og:description" content={article.excerpt} />
+        <meta property="article:published_time" content={article.date} />
+        <meta property="article:section" content={article.category} />
+        {(article.tags || []).map((t) => (
+          <meta key={t} property="article:tag" content={t} />
+        ))}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={article.title} />
+        <meta name="twitter:description" content={article.excerpt} />
+      </Head>
       {/* Background elements */}
       <motion.div
         className="absolute top-0 right-0 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl pointer-events-none"

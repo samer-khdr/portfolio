@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import blogsData from '../data/blogs.json';
 import SectionTitle from './SectionTitle';
-import ContentCard from './ContentCard';
+import ResourceCard from './ResourceCard';
 
 export default function Blog() {
   const navigate = useNavigate();
@@ -116,50 +116,21 @@ export default function Blog() {
         {/* Blog Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredBlogs.map((blog) => (
-            <ContentCard key={blog.id} onClick={() => navigate(`/article/${blog.id}`)}>
-              {/* Header */}
-              <div className="flex items-start justify-between gap-4 mb-4">
-                <span className="text-xs font-mono text-slate-400 tracking-widest">
-                  ART-{String(blog.id).padStart(3, '0')}
-                </span>
-                <span className={`text-xs font-bold uppercase tracking-widest px-2.5 py-1 rounded-full text-white bg-gradient-to-r ${getCategoryGradient(blog.category)}`}>
-                  {blog.category}
-                </span>
-              </div>
-
-              {/* Title */}
-              <h3 className="text-lg font-serif font-bold text-slate-50 mb-2 group-hover:text-amber-400 transition-colors">
-                {blog.title}
-              </h3>
-
-              {/* Excerpt */}
-              <p className="text-slate-400 text-sm leading-relaxed mb-4 overflow-hidden [display:-webkit-box] [-webkit-line-clamp:3] [-webkit-box-orient:vertical]">
-                {blog.excerpt}
-              </p>
-
-              {/* Tags */}
-              <div className="mb-4 pt-4 border-t border-slate-700/30">
-                <p className="text-xs text-slate-500 font-mono uppercase tracking-wider mb-2">Topics</p>
-                <div className="flex flex-wrap gap-1.5">
-                  {blog.tags.slice(0, 3).map(tag => (
-                    <span key={tag} className="text-xs px-2 py-1 bg-slate-800/50 text-slate-300 rounded border border-slate-700/30 group-hover:border-amber-500/30 transition-colors">
-                      {tag}
-                    </span>
-                  ))}
-                  {blog.tags.length > 3 && (
-                    <span className="text-xs text-slate-500 px-2 py-1">+{blog.tags.length - 3}</span>
-                  )}
-                </div>
-              </div>
-
-              {/* Footer */}
-              <div className="flex justify-between items-center pt-2 border-t border-slate-700/20 mt-auto">
-                <span className="text-xs text-slate-500 font-mono">{blog.readTime} MIN READ</span>
-                <span className="text-xs text-slate-500 font-mono">
-                  {new Date(blog.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }).toUpperCase()}
-                </span>
-              </div>
-            </ContentCard>
+            <ResourceCard
+              key={blog.id}
+              badgeId={`ART-${String(blog.id).padStart(3, '0')}`}
+              pill={{ text: blog.category, gradient: getCategoryGradient(blog.category) }}
+              title={blog.title}
+              description={blog.excerpt}
+              tagsLabel="Topics"
+              tags={blog.tags}
+              maxTagsShown={3}
+              footerLeft={`${blog.readTime} MIN READ`}
+              footerRight={new Date(blog.date)
+                .toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
+                .toUpperCase()}
+              onClick={() => navigate(`/article/${blog.id}`)}
+            />
           ))}
         </div>
 
