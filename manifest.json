@@ -1,0 +1,34 @@
+{
+  "_client-41e77b48.js": {
+    "file": "assets/client-41e77b48.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true
+  },
+  "index.css": {
+    "file": "assets/index-12b3340b.css",
+    "src": "index.css"
+  },
+  "index.html": {
+    "css": [
+      "assets/index-12b3340b.css"
+    ],
+    "dynamicImports": [
+      "_client-41e77b48.js",
+      "_client-41e77b48.js",
+      "src/components/ArticleDetail.jsx"
+    ],
+    "file": "assets/app-dc9f32c4.js",
+    "isEntry": true,
+    "src": "index.html"
+  },
+  "src/components/ArticleDetail.jsx": {
+    "file": "assets/ArticleDetail-441238a6.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/ArticleDetail.jsx"
+  }
+}
